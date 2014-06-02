@@ -1,7 +1,7 @@
 // main entry
 
 var Message = require("./lib/message");
-var msgid = require('./lib/msgid');
+var generateMsgId = require('./lib/msgid').generateMsgId;
 
-exports.msgid = msgid;
+exports.generateMsgId = generateMsgId;
 exports.Message = Message;
