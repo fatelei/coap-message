@@ -2,7 +2,7 @@
 
 var Message = require('./lib/message');
 var generateMsgId = require('./lib/msgid').generateMsgId;
-var IncomeMessage = reuqire('./lib/in');
+var IncomeMessage = require('./lib/in');
 var OutcomeMessage = require('./lib/out');
 
 exports.generateMsgId = generateMsgId;
